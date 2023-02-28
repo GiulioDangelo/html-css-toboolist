@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 100px;
+    margin: 30px;
+}
+
+h1{
+    position: absolute;
+    font-size: 80px;
+    left: 150px;
+    top: 40px;
+}
+
+.button{
+    height: 50px;
+    width:80%;
+    background-color: blue;
+    margin: 30px auto 0px;
+}
+
+button{
+    
+}
+
+.list{
+    background-color: aqua;
+    width: 80%;
+    height: 1100px;
+    margin: 0px auto;
+}
+
+main{
+    background-color: black;
+}
