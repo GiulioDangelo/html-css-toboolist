@@ -1,10 +1,17 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: #F6F8F9;
 }
 
 header{
-    background-color: aqua;
+    background-color: white;
 }
 
 .logo{
@@ -20,11 +27,11 @@ h1{
 }
 
 .container-button{
-    height: 50px;
-    width:80%;
-    background-color: white;
-    margin: 40px auto 1px;
-
+    height: 80px;
+    width:60%;
+    background-color: rgb(255, 255, 255);
+    margin: 40px auto 2px;
+    border-radius: 5px;
 }
 
 .button-task{
@@ -33,7 +40,8 @@ h1{
     border-radius: 5px;
     color: white;
     background-color: #45ABEA;
-    margin-left: 60px;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 
 .button-section{
@@ -46,7 +54,7 @@ h1{
 
 .list{
     background-color: white;
-    width: 80%;
+    width: 60%;
     height: 1100px;
     margin: 0px auto;
 }
@@ -63,9 +71,9 @@ li{
 }
 
 .checkd{
-    color: green;
+    color: rgb(0, 255, 0);
     border-radius: 50%;
-    border:1px solid green ;
+    border:1px solid rgb(0, 255, 0) ;
 }
     
 .uncheckd{
@@ -74,7 +82,11 @@ li{
     border:1px solid rgb(255, 0, 0) ;
 }
 
-main{
-    background-color: rgb(232, 232, 232);
+.tag{
+    display: inline-block;
+    color: white;
+    background-color: #47ADF1;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
 }
-
