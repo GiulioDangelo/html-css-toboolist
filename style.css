@@ -15,15 +15,29 @@ h1{
     top: 40px;
 }
 
-.button{
+.container-button{
     height: 50px;
     width:80%;
     background-color: blue;
     margin: 30px auto 0px;
+
 }
 
-button{
-    
+.button-task{
+    height:40px ;
+    width: 90px ;
+    border-radius: 5px;
+    color: white;
+    background-color: #45ABEA;
+    margin-left: 60px;
+}
+
+.button-section{
+    height:40px ;
+    width: 130px ;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
 }
 
 .list{
@@ -31,6 +45,16 @@ button{
     width: 80%;
     height: 1100px;
     margin: 0px auto;
+}
+
+ul{
+    padding: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+li{
+    padding: 10px;
 }
 
 main{
