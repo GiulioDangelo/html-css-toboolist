@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: aqua;
+}
+
 .logo{
     height: 100px;
     margin: 30px;
@@ -18,8 +22,8 @@ h1{
 .container-button{
     height: 50px;
     width:80%;
-    background-color: blue;
-    margin: 30px auto 0px;
+    background-color: white;
+    margin: 40px auto 1px;
 
 }
 
@@ -41,7 +45,7 @@ h1{
 }
 
 .list{
-    background-color: aqua;
+    background-color: white;
     width: 80%;
     height: 1100px;
     margin: 0px auto;
@@ -51,12 +55,26 @@ ul{
     padding: 40px;
     margin-left: 40px;
     font-size: 30px;
+    list-style: none;
 }
 
 li{
     padding: 10px;
 }
 
-main{
-    background-color: black;
+.checkd{
+    color: green;
+    border-radius: 50%;
+    border:1px solid green ;
 }
+    
+.uncheckd{
+    color: rgb(255, 0, 0);
+    border-radius: 50%;
+    border:1px solid rgb(255, 0, 0) ;
+}
+
+main{
+    background-color: rgb(232, 232, 232);
+}
+
