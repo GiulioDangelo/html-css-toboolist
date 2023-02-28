@@ -12,6 +12,7 @@ body{
 
 header{
     background-color: white;
+    position: relative;
 }
 
 .logo{
@@ -20,10 +21,11 @@ header{
 }
 
 h1{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
     font-size: 80px;
-    left: 150px;
-    top: 40px;
+    font-weight: 800;
 }
 
 .container-button{
@@ -32,6 +34,7 @@ h1{
     background-color: rgb(255, 255, 255);
     margin: 40px auto 2px;
     border-radius: 5px;
+    max-width: 1100px;
 }
 
 .button-task{
@@ -42,6 +45,7 @@ h1{
     background-color: #45ABEA;
     margin-left: 80px;
     margin-top: 20px;
+    border: none;
 }
 
 .button-section{
@@ -50,6 +54,7 @@ h1{
     border-radius: 5px;
     background-color: white;
     color: gray;
+    border:1px solid rgb(203, 203, 203)
 }
 
 .list{
@@ -57,10 +62,11 @@ h1{
     width: 60%;
     height: 1100px;
     margin: 0px auto;
+    max-width: 1100px;
 }
 
 ul{
-    padding: 40px;
+    padding: 30px;
     margin-left: 40px;
     font-size: 30px;
     list-style: none;
@@ -70,16 +76,23 @@ li{
     padding: 10px;
 }
 
+h3{
+    display: inline;
+    font-weight: 600;
+}
+
 .checkd{
     color: rgb(0, 255, 0);
     border-radius: 50%;
     border:1px solid rgb(0, 255, 0) ;
+    margin-right: 20px;
 }
     
 .uncheckd{
     color: rgb(255, 0, 0);
     border-radius: 50%;
     border:1px solid rgb(255, 0, 0) ;
+    margin-right: 20px;
 }
 
 .tag{
@@ -87,6 +100,27 @@ li{
     color: white;
     background-color: #47ADF1;
     border-radius: 20px;
-    padding: 5px;
+    padding: 9px;
     font-size: 20px;
 }
+
+#purple{
+    background-color: #9C72E4;
+}
+
+#aqua{
+    background-color: #64C0A9;
+}
+
+#orange{
+    background-color: #F29E33;
+}
+
+#pink{
+    background-color: #D863A1;
+}
+
+#green{
+    background-color: #B0C926;
+}
+
