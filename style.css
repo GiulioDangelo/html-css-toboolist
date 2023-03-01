@@ -16,16 +16,17 @@ header{
 }
 
 .logo{
-    height: 100px;
+    height: 80px;
     margin: 30px;
 }
 
 h1{
     display: inline-block;
     position: relative;
-    bottom: 50px;
-    font-size: 80px;
-    font-weight: 800;
+    bottom: 55px;
+    right: 30px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .container-button{
@@ -71,7 +72,7 @@ h1{
 ul{
     padding: 30px;
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 20px;
     list-style: none;
 }
 
@@ -109,6 +110,7 @@ h3{
     background-color: #47ADF1;
     border-radius: 20px;
     padding: 9px;
+    margin-left: 10px;
     font-size: 20px;
 }
 
