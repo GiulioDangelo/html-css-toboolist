@@ -84,18 +84,23 @@ h3{
     font-weight: 600;
 }
 
-.checkd{
-    color: rgb(0, 255, 0);
+.status{
+    display: inline-block;
     border-radius: 50%;
-    border:1px solid rgb(0, 255, 0) ;
     margin-right: 20px;
+    height: 1.7em;
+    width: 1.7em;
+    text-align: center;
+} 
+
+.checkd{
+    color: rgb(0, 255, 0);  
+    border:1px solid rgb(0, 255, 0);  
 }
     
 .uncheckd{
     color: rgb(255, 0, 0);
-    border-radius: 50%;
-    border:1px solid rgb(255, 0, 0) ;
-    margin-right: 20px;
+    border:1px solid rgb(255, 0, 0);
 }
 
 .tag{
